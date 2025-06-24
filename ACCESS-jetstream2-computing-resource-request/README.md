@@ -1,7 +1,7 @@
 # Application submission info
 
 ---
-> Submitted on 21-May-2025; approved -2025 (BIO250171)
+> Submitted on 15-Apr-2025; approved 17-Apr-2025 (BIO250131)
 ---
 
 Submitted through ACCESS: https://access-ci.org/
@@ -74,21 +74,22 @@ Then submitted the form.
 
 ### Requesting quota-limit increases so we can run up to 60 instances concurrently, and requesting Manila (for shared volume)
 
-coming soon
-
-<--
-
 The allocation comes with a limit on the number of concurrent instances that can be run. I submitted a request when logged into Jetstream2 here: https://jetstream2.exosphere.app/exosphere/getsupport
 
 This is the text I submitted (after selecting the radio dial for “An Allocation”):
 
 > Hi there :)
 > 
-> We plan to use this allocation (BIO240064) with 60 concurrent m3.large instances for a bioinformatics course we are running. The starting limit is set to 10.
+> We plan to use this allocation (BIO250131) with 60 concurrent m3.large instances for a bioinformatics course we are running. But the starting limits prohibit that.
 > 
-> Could you please help with increasing the allotted quotas so that we will be able to run up to 60 m3.large instances concurrently on this allocation, including cores, ram, volume, ports, available IP addresses, and whatever other magic you folks take care of?
->
-> We would also like to be able to use the 4 TB we specified for Jetstream2 Storage as a shared volume attached to all instances. We've done this with Manila in the past. Could you please enable that for us?
->
+> Could you please help with increasing the required quotas so that we will be able to run up to 60 m3.large instances concurrently on this allocation, including cores, ram, volume, ports, available IP addresses, and whatever other magic you folks take care of?
+> 
+> We would also like to be able to use the 4 TB we specified for Jetstream2 Storage as a shared volume attached to all instances. We've done this with Manila in the past, managed through Horizon. Could you please enable that for us/help with whatever is needed for me to be able to set that up? Ultimately, I plan to create the base instance with the share mounted, then imaging that to use for creating the instances for the course.
+> 
 > Thank you for any help!  
-> -Mike -->
+> -Mike
+
+And actually, that site just helps make the email you can then copy/paste to send them via regular email. 
+
+## Instance creation and setup info
+Instance creation and setup info for the 2024 year is here: https://hackmd.io/kIeWoqZYSJCltfkeLjfDtA?view
