@@ -1,0 +1,56 @@
+query_name,rank,fraction,lineage,query_md5,query_filename,f_weighted_at_rank,bp_match_at_rank,query_ani_at_rank,total_weighted_hashes
+ERR9301419,superkingdom,0.42689804772234285,Eukaryota,a3a715ae,-,0.5641589675905557,29520000,0.9834481196303472,13638
+ERR9301419,superkingdom,0.5731019522776571,unclassified,a3a715ae,-,0.4358410324094443,39630000,,13638
+ERR9301419,phylum,0.42689804772234285,Eukaryota;Chordata,a3a715ae,-,0.5641589675905557,29520000,0.9834481196303472,13638
+ERR9301419,phylum,0.5731019522776571,unclassified,a3a715ae,-,0.4358410324094443,39630000,,13638
+ERR9301419,class,0.4228488792480116,Eukaryota;Chordata;Mammalia,a3a715ae,-,0.5533069365009531,29240000,0.9832643599496387,13638
+ERR9301419,class,0.0017353579175704988,Eukaryota;Chordata;Aves,a3a715ae,-,0.0031529549787358852,120000,0.8828163620752995,13638
+ERR9301419,class,0.0015907447577729573,Eukaryota;Chordata;Actinopteri,a3a715ae,-,0.005279366476022878,110000,0.8813114684039073,13638
+ERR9301419,class,0.0007230657989877079,Eukaryota;Chordata;Lepidosauria,a3a715ae,-,0.002419709634843819,50000,0.8677912191820055,13638
+ERR9301419,class,0.5731019522776573,unclassified,a3a715ae,-,0.4358410324094443,39630000,,13638
+ERR9301419,order,0.4228488792480116,Eukaryota;Chordata;Mammalia;Primates,a3a715ae,-,0.5533069365009531,29240000,0.9832643599496387,13638
+ERR9301419,order,0.0017353579175704988,Eukaryota;Chordata;Aves;Psittaciformes,a3a715ae,-,0.0031529549787358852,120000,0.8828163620752995,13638
+ERR9301419,order,0.0008676789587852494,Eukaryota;Chordata;Actinopteri;Siluriformes,a3a715ae,-,0.004839419269687638,60000,0.8708990660641577,13638
+ERR9301419,order,0.0007230657989877079,Eukaryota;Chordata;Actinopteri;Characiformes,a3a715ae,-,0.0004399472063352398,50000,0.8677912191820055,13638
+ERR9301419,order,0.0007230657989877079,Eukaryota;Chordata;Lepidosauria;Squamata,a3a715ae,-,0.002419709634843819,50000,0.8677912191820055,13638
+ERR9301419,order,0.5731019522776571,unclassified,a3a715ae,-,0.4358410324094443,39630000,,13638
+ERR9301419,family,0.4190889370932755,Eukaryota;Chordata;Mammalia;Primates;Hominidae,a3a715ae,-,0.5501539815222173,28980000,0.9830921746294353,13638
+ERR9301419,family,0.0017353579175704988,Eukaryota;Chordata;Aves;Psittaciformes;Psittacidae,a3a715ae,-,0.0031529549787358852,120000,0.8828163620752995,13638
+ERR9301419,family,0.0011569052783803326,Eukaryota;Chordata;Mammalia;Primates;Cercopithecidae,a3a715ae,-,0.001173192550227306,80000,0.8758255368617675,13638
+ERR9301419,family,0.001012292118582791,Eukaryota;Chordata;Mammalia;Primates;Aotidae,a3a715ae,-,0.0008798944126704796,70000,0.8735353950187253,13638
+ERR9301419,family,0.0008676789587852494,Eukaryota;Chordata;Actinopteri;Siluriformes;Ictaluridae,a3a715ae,-,0.004839419269687638,60000,0.8708990660641577,13638
+ERR9301419,family,0.0008676789587852494,Eukaryota;Chordata;Mammalia;Primates;Atelidae,a3a715ae,-,0.0007332453438920663,60000,0.8708990660641577,13638
+ERR9301419,family,0.0007230657989877079,Eukaryota;Chordata;Actinopteri;Characiformes;Alestidae,a3a715ae,-,0.0004399472063352398,50000,0.8677912191820055,13638
+ERR9301419,family,0.0007230657989877079,Eukaryota;Chordata;Lepidosauria;Squamata;Scincidae,a3a715ae,-,0.002419709634843819,50000,0.8677912191820055,13638
+ERR9301419,family,0.0007230657989877079,Eukaryota;Chordata;Mammalia;Primates;Pitheciidae,a3a715ae,-,0.00036662267194603314,50000,0.8677912191820055,13638
+ERR9301419,family,0.5731019522776571,unclassified,a3a715ae,-,0.4358410324094443,39630000,,13638
+ERR9301419,genus,0.4190889370932755,Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo,a3a715ae,-,0.5501539815222173,28980000,0.9830921746294353,13638
+ERR9301419,genus,0.0017353579175704988,Eukaryota;Chordata;Aves;Psittaciformes;Psittacidae;Conuropsis,a3a715ae,-,0.0031529549787358852,120000,0.8828163620752995,13638
+ERR9301419,genus,0.0011569052783803326,Eukaryota;Chordata;Mammalia;Primates;Cercopithecidae;Rhinopithecus,a3a715ae,-,0.001173192550227306,80000,0.8758255368617675,13638
+ERR9301419,genus,0.001012292118582791,Eukaryota;Chordata;Mammalia;Primates;Aotidae;Aotus,a3a715ae,-,0.0008798944126704796,70000,0.8735353950187253,13638
+ERR9301419,genus,0.0008676789587852494,Eukaryota;Chordata;Actinopteri;Siluriformes;Ictaluridae;Prietella,a3a715ae,-,0.004839419269687638,60000,0.8708990660641577,13638
+ERR9301419,genus,0.0008676789587852494,Eukaryota;Chordata;Mammalia;Primates;Atelidae;Lagothrix,a3a715ae,-,0.0007332453438920663,60000,0.8708990660641577,13638
+ERR9301419,genus,0.0007230657989877079,Eukaryota;Chordata;Actinopteri;Characiformes;Alestidae;Tricuspidalestes,a3a715ae,-,0.0004399472063352398,50000,0.8677912191820055,13638
+ERR9301419,genus,0.0007230657989877079,Eukaryota;Chordata;Lepidosauria;Squamata;Scincidae;Trachylepis,a3a715ae,-,0.002419709634843819,50000,0.8677912191820055,13638
+ERR9301419,genus,0.0007230657989877079,Eukaryota;Chordata;Mammalia;Primates;Pitheciidae;Plecturocebus,a3a715ae,-,0.00036662267194603314,50000,0.8677912191820055,13638
+ERR9301419,genus,0.5731019522776571,unclassified,a3a715ae,-,0.4358410324094443,39630000,,13638
+ERR9301419,species,0.4190889370932755,Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo;Homo sapiens,a3a715ae,-,0.5501539815222173,28980000,0.9830921746294353,13638
+ERR9301419,species,0.0017353579175704988,Eukaryota;Chordata;Aves;Psittaciformes;Psittacidae;Conuropsis;Conuropsis carolinensis,a3a715ae,-,0.0031529549787358852,120000,0.8828163620752995,13638
+ERR9301419,species,0.0011569052783803326,Eukaryota;Chordata;Mammalia;Primates;Cercopithecidae;Rhinopithecus;Rhinopithecus roxellana,a3a715ae,-,0.001173192550227306,80000,0.8758255368617675,13638
+ERR9301419,species,0.001012292118582791,Eukaryota;Chordata;Mammalia;Primates;Aotidae;Aotus;Aotus azarai,a3a715ae,-,0.0008798944126704796,70000,0.8735353950187253,13638
+ERR9301419,species,0.0008676789587852494,Eukaryota;Chordata;Actinopteri;Siluriformes;Ictaluridae;Prietella;Prietella phreatophila,a3a715ae,-,0.004839419269687638,60000,0.8708990660641577,13638
+ERR9301419,species,0.0008676789587852494,Eukaryota;Chordata;Mammalia;Primates;Atelidae;Lagothrix;Lagothrix lagotricha,a3a715ae,-,0.0007332453438920663,60000,0.8708990660641577,13638
+ERR9301419,species,0.0007230657989877079,Eukaryota;Chordata;Actinopteri;Characiformes;Alestidae;Tricuspidalestes;Tricuspidalestes caeruleus,a3a715ae,-,0.0004399472063352398,50000,0.8677912191820055,13638
+ERR9301419,species,0.0007230657989877079,Eukaryota;Chordata;Lepidosauria;Squamata;Scincidae;Trachylepis;Trachylepis maculilabris,a3a715ae,-,0.002419709634843819,50000,0.8677912191820055,13638
+ERR9301419,species,0.0007230657989877079,Eukaryota;Chordata;Mammalia;Primates;Pitheciidae;Plecturocebus;Plecturocebus cupreus,a3a715ae,-,0.00036662267194603314,50000,0.8677912191820055,13638
+ERR9301419,species,0.5731019522776571,unclassified,a3a715ae,-,0.4358410324094443,39630000,,13638
+ERR9301419,strain,0.4190889370932755,Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo;Homo sapiens;unclassified Homo sapiens subspecies/strain,a3a715ae,-,0.5501539815222173,28980000,0.9830921746294353,13638
+ERR9301419,strain,0.0017353579175704988,Eukaryota;Chordata;Aves;Psittaciformes;Psittacidae;Conuropsis;Conuropsis carolinensis;unclassified Conuropsis carolinensis subspecies/strain,a3a715ae,-,0.0031529549787358852,120000,0.8828163620752995,13638
+ERR9301419,strain,0.0011569052783803326,Eukaryota;Chordata;Mammalia;Primates;Cercopithecidae;Rhinopithecus;Rhinopithecus roxellana;unclassified Rhinopithecus roxellana subspecies/strain,a3a715ae,-,0.001173192550227306,80000,0.8758255368617675,13638
+ERR9301419,strain,0.001012292118582791,Eukaryota;Chordata;Mammalia;Primates;Aotidae;Aotus;Aotus azarai;unclassified Aotus azarai subspecies/strain,a3a715ae,-,0.0008798944126704796,70000,0.8735353950187253,13638
+ERR9301419,strain,0.0008676789587852494,Eukaryota;Chordata;Actinopteri;Siluriformes;Ictaluridae;Prietella;Prietella phreatophila;unclassified Prietella phreatophila subspecies/strain,a3a715ae,-,0.004839419269687638,60000,0.8708990660641577,13638
+ERR9301419,strain,0.0008676789587852494,Eukaryota;Chordata;Mammalia;Primates;Atelidae;Lagothrix;Lagothrix lagotricha;unclassified Lagothrix lagotricha subspecies/strain,a3a715ae,-,0.0007332453438920663,60000,0.8708990660641577,13638
+ERR9301419,strain,0.0007230657989877079,Eukaryota;Chordata;Actinopteri;Characiformes;Alestidae;Tricuspidalestes;Tricuspidalestes caeruleus;unclassified Tricuspidalestes caeruleus subspecies/strain,a3a715ae,-,0.0004399472063352398,50000,0.8677912191820055,13638
+ERR9301419,strain,0.0007230657989877079,Eukaryota;Chordata;Lepidosauria;Squamata;Scincidae;Trachylepis;Trachylepis maculilabris;unclassified Trachylepis maculilabris subspecies/strain,a3a715ae,-,0.002419709634843819,50000,0.8677912191820055,13638
+ERR9301419,strain,0.0007230657989877079,Eukaryota;Chordata;Mammalia;Primates;Pitheciidae;Plecturocebus;Plecturocebus cupreus;unclassified Plecturocebus cupreus subspecies/strain,a3a715ae,-,0.00036662267194603314,50000,0.8677912191820055,13638
+ERR9301419,strain,0.5731019522776571,unclassified,a3a715ae,-,0.4358410324094443,39630000,,13638
