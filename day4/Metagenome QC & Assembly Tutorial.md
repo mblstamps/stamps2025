@@ -7,7 +7,6 @@ title: Metagenome QC & Assembly Tutorial
 This tutorial will walk us through several of the steps required to quality control a metagenomic dataset (including adapter trimming) and assemble the reads into contigs. Much of this tutorial is pulled from [Hadrien Gourle's tutorial site](https://www.hadriengourle.com/tutorials/meta_assembly/) including the particular dataset we will test on. Some of the commands have been changed to reflect the tools we have discussed, but many of the commands are unchanged from that version.
 
 ### Installing the software
-According to Mike Lee, the following command will install everything you need for this tutorial in under 1 minute:
 
 ```
 conda create -y -n assembly -c conda-forge -c bioconda -c defaults fastqc bbmap megahit metabat2 bowtie2 samtools
