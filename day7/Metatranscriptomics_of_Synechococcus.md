@@ -356,8 +356,6 @@ Conduct a t-test to examine the differences in transcription between day and nig
 library(tidyverse)
 library(dplyr)
 library(broom)
-install.packages("broom")
-library(broom)
 names(df)
 
 results <- df %>%
