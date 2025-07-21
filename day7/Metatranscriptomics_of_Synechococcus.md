@@ -356,20 +356,23 @@ Conduct a t-test to examine the differences in transcription between day and nig
 library(tidyverse)
 library(dplyr)
 library(broom)
-#install.packages("broom")
+install.packages("broom")
 library(broom)
 names(df)
 
 results <- df %>%
   group_by(gene_callers_id, KOfam) %>%
-  nest() %>%
-  dplyr::mutate(
-    t_test = map(data, ~ t.test(CLR_MGX_MTX ~ DayNight, data = .x)),
-    t_test_tidy = map(t_test, tidy)
-  ) %>%
-  unnest(t_test_tidy) %>%
-  dplyr::select(gene_callers_id, KOfam, estimate, statistic, p.value, conf.low, conf.high)%>%
-  arrange(p.value)
+  group_split() %>%
+  lapply(function(group_data) {
+    test <- t.test(CLR_MGX_MTX ~ DayNight, data = group_data)
+    tidy_result <- broom::tidy(test)
+    tidy_result$gene_callers_id <- unique(group_data$gene_callers_id)
+    tidy_result$KOfam <- unique(group_data$KOfam)
+    tidy_result
+  }) %>%
+  bind_rows() %>%
+  mutate(p_adj = p.adjust(p.value, method = "BH")) %>%
+  dplyr::select(gene_callers_id, KOfam, estimate, statistic, p.value, p_adj, conf.low, conf.high)
 
 results%>%head(20)
 
