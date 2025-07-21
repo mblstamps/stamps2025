@@ -5,9 +5,9 @@ title: Metatranscriptomics of Synechococcus
 
 # Metatranscriptomics of *Synechococcus* Clade II in the Hawaiʻi Diel Sampling (HaDS)
 
-:::info
+
 :computer: STAMPS 2025
-:::
+
 
 ## :question: Purpose
 
@@ -18,9 +18,7 @@ Gain familiarity with tools for examining metatranscriptomics data.
 Analyze patterns of gene expression using raw and normalized data. 
 
 ## :sunny: Background
-:::success
-Describe the purpose of the process.
-:::
+
 
 Marine *Synechococcus* (phylum Cyanobacteriota) are a group of common photosynethic bacteria that are most dominant in coastal systems, but are widely distributed across the sunlit ocean. 
 
@@ -32,9 +30,9 @@ ata come from the multi-omic Hawaiʻi Diel Sampling (Tucker et al., in review). 
 
 
 ## :ocean: Metatranscriptomic and metagenomic read recruitment
-:::success
+
 We are going to examine read recruitment of metatranscriptomic and metagenomic samples from the Hawaiʻi Diel Sampling to a reference genome of marine *Synechococcus* called M16. 
-:::
+
 
 Before we dive in, a brief recap of the analysis steps:
 
@@ -68,10 +66,9 @@ anvi-interactive -c M16-contigs.db -p M16_MTX_MGX_MERGED/PROFILE.db -C DEFAULT -
 ```
 
 
-:::info
+
 :bulb:Once you run the anvi-interactive command you will need to click your anvio link ([here](https://github.com/mblstamps/stamps2025/wiki/Accessing-our-cloud-computers)) to start the session.
 
-:::
 
 
 1. Click Draw.
@@ -79,12 +76,11 @@ anvi-interactive -c M16-contigs.db -p M16_MTX_MGX_MERGED/PROFILE.db -C DEFAULT -
 3. In Main, click additional, dendrogram angle, and change 270 to 180 to see sample names. Draw.
 
 
-:::success
+
 We are a looking at a genome wide view of metagenomic (MGX) and metatranscriptomic (MTX) reads that were recruited to a *Synechococcus* genome known as M16 (*Synechococcus* Clade II). Each line in the ring is a gene in the genome, and the height of the bar shows the amount of coverage of that gene in the metatranscriptomic/metagenomic data.
 
 Each ring is a sample. The samples are labelled based on Project (HADS), Date (20210818- August 18, 2018), hour (H1200, noon), sample type (MTX for metatranscriptomes or MGX for metagenomes), and the site of sampling (xHP1). 
 
-:::
 
 
 
@@ -244,7 +240,7 @@ Length of gene is accounted for when examining about coverage, but not when exam
 
 ## :ocean: Examining transcripts of Synechococcus M16 in coastal Kāneʻohe Bay that have been normalized by paired metagenomes.
 
-:::success
+
 
 There are a number of considerations in the analysis of metatranscriptomes, including the normalization of metrantranscriptomes for sequencing depth, gene length, abundance of the organism, and changes in community composition. 
 
@@ -254,7 +250,6 @@ To do this, we used the center log ratio (clr) of the gene transcripts from Syne
 
 We obtained single-copy gene coverages from a metagenomic co-assembly and gene transcript coverages from recruiting reads to a reference genome. For more details about how these analysis steps were conducted, check out the `Preliminary_Analysis.R` file.
  
-:::
 
 # Let's examine how gene expression changes in *Synechococcus* over a diel cycle
 
@@ -437,6 +432,6 @@ https://www.nature.com/articles/ismej201294
 
 
 ## :question: Questions?
-:::success
+
 If after the course you have additional questions or are interested in chatting, please reach out :) (stucker@mbl.edu). 
-:::
+
